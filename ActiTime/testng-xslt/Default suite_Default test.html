@@ -1,0 +1,1085 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               Test case
+               
+               <b>Default test</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">3</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">1</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">4</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">25%</div>
+            </td>
+            <td style="background-color: #eaf0f7; padding: 3px 3px 3px 0;" align="center"
+                nowrap="true">42s
+               
+            </td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"
+                   checked=""></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"
+                   checked=""></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"
+                checked=""></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="com.actitime.testcases.TestApproveTimeTrack_clickApproveBtn_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_clickApproveBtn_byStatus_failed_FAIL1_details')">clickApproveBtn()</a>
+               </td>
+               <td nowrap="true">21:24:33</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_clickApproveBtn_byStatus_failed_FAIL1_exception')">org.openqa.selenium.NoSuchElementException: 
+                     no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='approveButton']"}
+                     (Session info: chrome=107.0.5304.107)
+                     For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                     System info: host: 'LAPTOP-81AM6DEF', ip: '192.168.8.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                     '1.8.0_231'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion:
+                     107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\hdilu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60645},
+                     javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS,
+                     proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                     unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators:
+                     true}
+                     Session ID: 38e40cd2d9bb05a618bec837d04d3b75
+                     *** Element info: {Using=xpath, value=//*[@id='approveButton']}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_clickApproveBtn_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>clickApproveBtn
+                     </div>
+                     <div>
+                        <b>Signature: </b>clickApproveBtn()[pri:0, instance:com.actitime.testcases.TestApproveTimeTrack@1b26f7b2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>21:24:33
+                     </div>
+                     <div>
+                        <b>End time: </b>21:24:44
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_clickApproveBtn_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='approveButton']"}
+                        (Session info: chrome=107.0.5304.107)
+                        For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                        System info: host: 'LAPTOP-81AM6DEF', ip: '192.168.8.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_231'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion:
+                        107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\hdilu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60645},
+                        javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS,
+                        proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                        unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators:
+                        true}
+                        Session ID: 38e40cd2d9bb05a618bec837d04d3b75
+                        *** Element info: {Using=xpath, value=//*[@id='approveButton']}
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+                        at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+                        at java.lang.reflect.Constructor.newInstance(Unknown Source)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+                        at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+                        at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+                        at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+                        at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+                        at com.actitime.pages.ApproveTimeTrackPage.clickApprove(ApproveTimeTrackPage.java:27)
+                        at com.actitime.testcases.TestApproveTimeTrack.clickApproveBtn(TestApproveTimeTrack.java:51)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        at java.lang.reflect.Method.invoke(Unknown Source)
+                        at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+                        at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+                        at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+                        at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+                        at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+                        at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+                        at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+                        at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+                        at java.util.ArrayList.forEach(Unknown Source)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:794)
+                        at org.testng.TestRunner.run(TestRunner.java:596)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+                        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+                        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+                        at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+                        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+                        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+                        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+                        at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+                        at org.testng.TestNG.runSuites(TestNG.java:1063)
+                        at org.testng.TestNG.run(TestNG.java:1031)
+                        at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+                        at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+                        at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.actitime.testcases.TestApproveTimeTrack_clickCheckBox_byStatus_failed_FAIL2_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_clickCheckBox_byStatus_failed_FAIL2_details')">clickCheckBox()</a>
+               </td>
+               <td nowrap="true">21:24:44</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_clickCheckBox_byStatus_failed_FAIL2_exception')">org.openqa.selenium.NoSuchElementException: 
+                     no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="approveTTTable"]/tbody[2]/tr[3]/td[7]/input"}
+                     (Session info: chrome=107.0.5304.107)
+                     For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                     System info: host: 'LAPTOP-81AM6DEF', ip: '192.168.8.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                     '1.8.0_231'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion:
+                     107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\hdilu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60645},
+                     javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS,
+                     proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                     unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators:
+                     true}
+                     Session ID: 38e40cd2d9bb05a618bec837d04d3b75
+                     *** Element info: {Using=xpath, value=//*[@id="approveTTTable"]/tbody[2]/tr[3]/td[7]/input}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_clickCheckBox_byStatus_failed_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>clickCheckBox
+                     </div>
+                     <div>
+                        <b>Signature: </b>clickCheckBox()[pri:0, instance:com.actitime.testcases.TestApproveTimeTrack@1b26f7b2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>21:24:44
+                     </div>
+                     <div>
+                        <b>End time: </b>21:24:54
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_clickCheckBox_byStatus_failed_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="approveTTTable"]/tbody[2]/tr[3]/td[7]/input"}
+                        (Session info: chrome=107.0.5304.107)
+                        For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                        System info: host: 'LAPTOP-81AM6DEF', ip: '192.168.8.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_231'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion:
+                        107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\hdilu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60645},
+                        javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS,
+                        proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                        unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators:
+                        true}
+                        Session ID: 38e40cd2d9bb05a618bec837d04d3b75
+                        *** Element info: {Using=xpath, value=//*[@id="approveTTTable"]/tbody[2]/tr[3]/td[7]/input}
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+                        at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+                        at java.lang.reflect.Constructor.newInstance(Unknown Source)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+                        at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+                        at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+                        at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+                        at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+                        at com.actitime.pages.ApproveTimeTrackPage.clickCheckBox(ApproveTimeTrackPage.java:23)
+                        at com.actitime.testcases.TestApproveTimeTrack.clickCheckBox(TestApproveTimeTrack.java:44)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        at java.lang.reflect.Method.invoke(Unknown Source)
+                        at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+                        at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+                        at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+                        at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+                        at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+                        at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+                        at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+                        at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+                        at java.util.ArrayList.forEach(Unknown Source)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:794)
+                        at org.testng.TestRunner.run(TestRunner.java:596)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+                        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+                        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+                        at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+                        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+                        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+                        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+                        at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+                        at org.testng.TestNG.runSuites(TestNG.java:1063)
+                        at org.testng.TestNG.run(TestNG.java:1031)
+                        at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+                        at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+                        at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.actitime.testcases.TestApproveTimeTrack_goApproveTimeTrack_byStatus_failed_FAIL3_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_goApproveTimeTrack_byStatus_failed_FAIL3_details')">goApproveTimeTrack()</a>
+               </td>
+               <td nowrap="true">21:24:54</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_goApproveTimeTrack_byStatus_failed_FAIL3_exception')">org.openqa.selenium.NoSuchElementException: 
+                     no such element: Unable to locate element: {"method":"link text","selector":"Approve Time-Track"}
+                     (Session info: chrome=107.0.5304.107)
+                     For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                     System info: host: 'LAPTOP-81AM6DEF', ip: '192.168.8.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                     '1.8.0_231'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion:
+                     107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\hdilu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60645},
+                     javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS,
+                     proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                     unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators:
+                     true}
+                     Session ID: 38e40cd2d9bb05a618bec837d04d3b75
+                     *** Element info: {Using=link text, value=Approve Time-Track}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_goApproveTimeTrack_byStatus_failed_FAIL3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>goApproveTimeTrack
+                     </div>
+                     <div>
+                        <b>Signature: </b>goApproveTimeTrack()[pri:0, instance:com.actitime.testcases.TestApproveTimeTrack@1b26f7b2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>21:24:54
+                     </div>
+                     <div>
+                        <b>End time: </b>21:25:04
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_goApproveTimeTrack_byStatus_failed_FAIL3_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Approve
+                        Time-Track"}
+                        (Session info: chrome=107.0.5304.107)
+                        For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                        System info: host: 'LAPTOP-81AM6DEF', ip: '192.168.8.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_231'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion:
+                        107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\hdilu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60645},
+                        javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS,
+                        proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                        unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators:
+                        true}
+                        Session ID: 38e40cd2d9bb05a618bec837d04d3b75
+                        *** Element info: {Using=link text, value=Approve Time-Track}
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+                        at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+                        at java.lang.reflect.Constructor.newInstance(Unknown Source)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+                        at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+                        at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+                        at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+                        at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+                        at com.actitime.pages.EnterTimeTrackPage.clickApproveTimeTrack(EnterTimeTrackPage.java:17)
+                        at com.actitime.testcases.TestApproveTimeTrack.goApproveTimeTrack(TestApproveTimeTrack.java:37)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        at java.lang.reflect.Method.invoke(Unknown Source)
+                        at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+                        at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+                        at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+                        at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+                        at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+                        at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+                        at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+                        at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+                        at java.util.ArrayList.forEach(Unknown Source)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:794)
+                        at org.testng.TestRunner.run(TestRunner.java:596)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+                        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+                        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+                        at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+                        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+                        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+                        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+                        at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+                        at org.testng.TestNG.runSuites(TestNG.java:1063)
+                        at org.testng.TestNG.run(TestNG.java:1031)
+                        at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+                        at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+                        at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.actitime.testcases.TestApproveTimeTrack_setup_byStatus_passed_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_setup_byStatus_passed_PASS1_details')">setup()</a>
+               </td>
+               <td nowrap="true">21:24:22</td>
+               <td nowrap="true" align="right">11s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_setup_byStatus_passed_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup()[pri:0, instance:com.actitime.testcases.TestApproveTimeTrack@1b26f7b2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>21:24:22
+                     </div>
+                     <div>
+                        <b>End time: </b>21:24:33
+                     </div>
+                     <div>
+                        <b>Duration: </b>11s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.actitime.testcases.TestApproveTimeTrack_loginToApp_byStatus_passed_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_loginToApp_byStatus_passed_PASS2_details')">loginToApp()</a>
+               </td>
+               <td nowrap="true">21:25:04</td>
+               <td nowrap="true" align="right">174 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_loginToApp_byStatus_passed_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>loginToApp
+                     </div>
+                     <div>
+                        <b>Signature: </b>loginToApp()[pri:0, instance:com.actitime.testcases.TestApproveTimeTrack@1b26f7b2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>21:25:04
+                     </div>
+                     <div>
+                        <b>End time: </b>21:25:04
+                     </div>
+                     <div>
+                        <b>Duration: </b>174 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.actitime.testcases.TestApproveTimeTrack_tearDown_byStatus_passed_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_tearDown_byStatus_passed_PASS3_details')">tearDown()</a>
+               </td>
+               <td nowrap="true">21:25:04</td>
+               <td nowrap="true" align="right">686 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_tearDown_byStatus_passed_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>tearDown
+                     </div>
+                     <div>
+                        <b>Signature: </b>tearDown()[pri:0, instance:com.actitime.testcases.TestApproveTimeTrack@1b26f7b2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>21:25:04
+                     </div>
+                     <div>
+                        <b>End time: </b>21:25:04
+                     </div>
+                     <div>
+                        <b>Duration: </b>686 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">com.actitime.testcases.TestApproveTimeTrack</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="com.actitime.testcases.TestApproveTimeTrack_setup_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_setup_byClass_PASS1_details')">setup()</a>
+               </td>
+               <td nowrap="true">21:24:22</td>
+               <td nowrap="true" align="right">11s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_setup_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup()[pri:0, instance:com.actitime.testcases.TestApproveTimeTrack@1b26f7b2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>21:24:22
+                     </div>
+                     <div>
+                        <b>End time: </b>21:24:33
+                     </div>
+                     <div>
+                        <b>Duration: </b>11s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.actitime.testcases.TestApproveTimeTrack_clickApproveBtn_byClass_FAIL2_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_clickApproveBtn_byClass_FAIL2_details')">clickApproveBtn()</a>
+               </td>
+               <td nowrap="true">21:24:33</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_clickApproveBtn_byClass_FAIL2_exception')">org.openqa.selenium.NoSuchElementException: 
+                     no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='approveButton']"}
+                     (Session info: chrome=107.0.5304.107)
+                     For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                     System info: host: 'LAPTOP-81AM6DEF', ip: '192.168.8.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                     '1.8.0_231'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion:
+                     107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\hdilu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60645},
+                     javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS,
+                     proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                     unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators:
+                     true}
+                     Session ID: 38e40cd2d9bb05a618bec837d04d3b75
+                     *** Element info: {Using=xpath, value=//*[@id='approveButton']}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_clickApproveBtn_byClass_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>clickApproveBtn
+                     </div>
+                     <div>
+                        <b>Signature: </b>clickApproveBtn()[pri:0, instance:com.actitime.testcases.TestApproveTimeTrack@1b26f7b2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>21:24:33
+                     </div>
+                     <div>
+                        <b>End time: </b>21:24:44
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_clickApproveBtn_byClass_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='approveButton']"}
+                        (Session info: chrome=107.0.5304.107)
+                        For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                        System info: host: 'LAPTOP-81AM6DEF', ip: '192.168.8.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_231'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion:
+                        107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\hdilu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60645},
+                        javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS,
+                        proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                        unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators:
+                        true}
+                        Session ID: 38e40cd2d9bb05a618bec837d04d3b75
+                        *** Element info: {Using=xpath, value=//*[@id='approveButton']}
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+                        at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+                        at java.lang.reflect.Constructor.newInstance(Unknown Source)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+                        at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+                        at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+                        at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+                        at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+                        at com.actitime.pages.ApproveTimeTrackPage.clickApprove(ApproveTimeTrackPage.java:27)
+                        at com.actitime.testcases.TestApproveTimeTrack.clickApproveBtn(TestApproveTimeTrack.java:51)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        at java.lang.reflect.Method.invoke(Unknown Source)
+                        at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+                        at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+                        at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+                        at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+                        at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+                        at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+                        at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+                        at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+                        at java.util.ArrayList.forEach(Unknown Source)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:794)
+                        at org.testng.TestRunner.run(TestRunner.java:596)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+                        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+                        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+                        at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+                        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+                        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+                        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+                        at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+                        at org.testng.TestNG.runSuites(TestNG.java:1063)
+                        at org.testng.TestNG.run(TestNG.java:1031)
+                        at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+                        at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+                        at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.actitime.testcases.TestApproveTimeTrack_clickCheckBox_byClass_FAIL3_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_clickCheckBox_byClass_FAIL3_details')">clickCheckBox()</a>
+               </td>
+               <td nowrap="true">21:24:44</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_clickCheckBox_byClass_FAIL3_exception')">org.openqa.selenium.NoSuchElementException: 
+                     no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="approveTTTable"]/tbody[2]/tr[3]/td[7]/input"}
+                     (Session info: chrome=107.0.5304.107)
+                     For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                     System info: host: 'LAPTOP-81AM6DEF', ip: '192.168.8.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                     '1.8.0_231'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion:
+                     107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\hdilu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60645},
+                     javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS,
+                     proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                     unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators:
+                     true}
+                     Session ID: 38e40cd2d9bb05a618bec837d04d3b75
+                     *** Element info: {Using=xpath, value=//*[@id="approveTTTable"]/tbody[2]/tr[3]/td[7]/input}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_clickCheckBox_byClass_FAIL3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>clickCheckBox
+                     </div>
+                     <div>
+                        <b>Signature: </b>clickCheckBox()[pri:0, instance:com.actitime.testcases.TestApproveTimeTrack@1b26f7b2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>21:24:44
+                     </div>
+                     <div>
+                        <b>End time: </b>21:24:54
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_clickCheckBox_byClass_FAIL3_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="approveTTTable"]/tbody[2]/tr[3]/td[7]/input"}
+                        (Session info: chrome=107.0.5304.107)
+                        For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                        System info: host: 'LAPTOP-81AM6DEF', ip: '192.168.8.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_231'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion:
+                        107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\hdilu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60645},
+                        javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS,
+                        proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                        unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators:
+                        true}
+                        Session ID: 38e40cd2d9bb05a618bec837d04d3b75
+                        *** Element info: {Using=xpath, value=//*[@id="approveTTTable"]/tbody[2]/tr[3]/td[7]/input}
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+                        at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+                        at java.lang.reflect.Constructor.newInstance(Unknown Source)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+                        at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+                        at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+                        at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+                        at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+                        at com.actitime.pages.ApproveTimeTrackPage.clickCheckBox(ApproveTimeTrackPage.java:23)
+                        at com.actitime.testcases.TestApproveTimeTrack.clickCheckBox(TestApproveTimeTrack.java:44)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        at java.lang.reflect.Method.invoke(Unknown Source)
+                        at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+                        at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+                        at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+                        at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+                        at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+                        at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+                        at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+                        at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+                        at java.util.ArrayList.forEach(Unknown Source)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:794)
+                        at org.testng.TestRunner.run(TestRunner.java:596)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+                        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+                        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+                        at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+                        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+                        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+                        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+                        at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+                        at org.testng.TestNG.runSuites(TestNG.java:1063)
+                        at org.testng.TestNG.run(TestNG.java:1031)
+                        at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+                        at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+                        at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.actitime.testcases.TestApproveTimeTrack_goApproveTimeTrack_byClass_FAIL4_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_goApproveTimeTrack_byClass_FAIL4_details')">goApproveTimeTrack()</a>
+               </td>
+               <td nowrap="true">21:24:54</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_goApproveTimeTrack_byClass_FAIL4_exception')">org.openqa.selenium.NoSuchElementException: 
+                     no such element: Unable to locate element: {"method":"link text","selector":"Approve Time-Track"}
+                     (Session info: chrome=107.0.5304.107)
+                     For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                     System info: host: 'LAPTOP-81AM6DEF', ip: '192.168.8.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                     '1.8.0_231'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion:
+                     107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\hdilu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60645},
+                     javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS,
+                     proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                     unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators:
+                     true}
+                     Session ID: 38e40cd2d9bb05a618bec837d04d3b75
+                     *** Element info: {Using=link text, value=Approve Time-Track}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_goApproveTimeTrack_byClass_FAIL4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>goApproveTimeTrack
+                     </div>
+                     <div>
+                        <b>Signature: </b>goApproveTimeTrack()[pri:0, instance:com.actitime.testcases.TestApproveTimeTrack@1b26f7b2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>21:24:54
+                     </div>
+                     <div>
+                        <b>End time: </b>21:25:04
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_goApproveTimeTrack_byClass_FAIL4_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Approve
+                        Time-Track"}
+                        (Session info: chrome=107.0.5304.107)
+                        For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                        System info: host: 'LAPTOP-81AM6DEF', ip: '192.168.8.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_231'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion:
+                        107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\hdilu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60645},
+                        javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS,
+                        proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                        unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators:
+                        true}
+                        Session ID: 38e40cd2d9bb05a618bec837d04d3b75
+                        *** Element info: {Using=link text, value=Approve Time-Track}
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+                        at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+                        at java.lang.reflect.Constructor.newInstance(Unknown Source)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+                        at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+                        at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+                        at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+                        at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+                        at com.actitime.pages.EnterTimeTrackPage.clickApproveTimeTrack(EnterTimeTrackPage.java:17)
+                        at com.actitime.testcases.TestApproveTimeTrack.goApproveTimeTrack(TestApproveTimeTrack.java:37)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        at java.lang.reflect.Method.invoke(Unknown Source)
+                        at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+                        at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+                        at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+                        at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+                        at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+                        at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+                        at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+                        at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+                        at java.util.ArrayList.forEach(Unknown Source)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:794)
+                        at org.testng.TestRunner.run(TestRunner.java:596)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+                        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+                        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+                        at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+                        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+                        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+                        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+                        at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+                        at org.testng.TestNG.runSuites(TestNG.java:1063)
+                        at org.testng.TestNG.run(TestNG.java:1031)
+                        at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+                        at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+                        at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.actitime.testcases.TestApproveTimeTrack_loginToApp_byClass_PASS5_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_loginToApp_byClass_PASS5_details')">loginToApp()</a>
+               </td>
+               <td nowrap="true">21:25:04</td>
+               <td nowrap="true" align="right">174 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_loginToApp_byClass_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>loginToApp
+                     </div>
+                     <div>
+                        <b>Signature: </b>loginToApp()[pri:0, instance:com.actitime.testcases.TestApproveTimeTrack@1b26f7b2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>21:25:04
+                     </div>
+                     <div>
+                        <b>End time: </b>21:25:04
+                     </div>
+                     <div>
+                        <b>Duration: </b>174 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.actitime.testcases.TestApproveTimeTrack_tearDown_byClass_PASS6_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.actitime.testcases.TestApproveTimeTrack_tearDown_byClass_PASS6_details')">tearDown()</a>
+               </td>
+               <td nowrap="true">21:25:04</td>
+               <td nowrap="true" align="right">686 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.actitime.testcases.TestApproveTimeTrack_tearDown_byClass_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>tearDown
+                     </div>
+                     <div>
+                        <b>Signature: </b>tearDown()[pri:0, instance:com.actitime.testcases.TestApproveTimeTrack@1b26f7b2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>21:25:04
+                     </div>
+                     <div>
+                        <b>End time: </b>21:25:04
+                     </div>
+                     <div>
+                        <b>Duration: </b>686 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>

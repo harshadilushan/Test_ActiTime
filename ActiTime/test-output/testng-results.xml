@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41325" started-at="2022-11-11T21:26:12 IST" finished-at="2022-11-11T21:26:54 IST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="9830" started-at="2022-11-11T21:26:12 IST" finished-at="2022-11-11T21:26:22 IST">
+      <class name="com.actitime.testcases.TestLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.actitime.testcases.TestLogin@1b26f7b2]" name="setup" is-config="true" duration-ms="8949" started-at="2022-11-11T21:26:12 IST" finished-at="2022-11-11T21:26:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.actitime.testcases.TestLogin@1b26f7b2]" name="loginToApp" duration-ms="181" started-at="2022-11-11T21:26:21 IST" finished-at="2022-11-11T21:26:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.actitime.testcases.TestLogin@1b26f7b2]" name="tearDown" is-config="true" duration-ms="669" started-at="2022-11-11T21:26:22 IST" finished-at="2022-11-11T21:26:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.testcases.TestLogin -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="16117" started-at="2022-11-11T21:26:22 IST" finished-at="2022-11-11T21:26:38 IST">
+      <class name="com.actitime.testcases.TestApproveTimeTrack">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.actitime.testcases.TestApproveTimeTrack@2e3fc542]" name="setup" is-config="true" duration-ms="8551" started-at="2022-11-11T21:26:22 IST" finished-at="2022-11-11T21:26:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginToApp()[pri:1, instance:com.actitime.testcases.TestApproveTimeTrack@2e3fc542]" name="loginToApp" duration-ms="221" started-at="2022-11-11T21:26:31 IST" finished-at="2022-11-11T21:26:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="goApproveTimeTrack()[pri:2, instance:com.actitime.testcases.TestApproveTimeTrack@2e3fc542]" name="goApproveTimeTrack" duration-ms="5947" started-at="2022-11-11T21:26:31 IST" finished-at="2022-11-11T21:26:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goApproveTimeTrack -->
+        <test-method status="PASS" signature="clickCheckBox()[pri:3, instance:com.actitime.testcases.TestApproveTimeTrack@2e3fc542]" name="clickCheckBox" duration-ms="662" started-at="2022-11-11T21:26:37 IST" finished-at="2022-11-11T21:26:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCheckBox -->
+        <test-method status="PASS" signature="clickApproveBtn()[pri:4, instance:com.actitime.testcases.TestApproveTimeTrack@2e3fc542]" name="clickApproveBtn" duration-ms="66" started-at="2022-11-11T21:26:38 IST" finished-at="2022-11-11T21:26:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickApproveBtn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.actitime.testcases.TestApproveTimeTrack@2e3fc542]" name="tearDown" is-config="true" duration-ms="662" started-at="2022-11-11T21:26:38 IST" finished-at="2022-11-11T21:26:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.testcases.TestApproveTimeTrack -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="15349" started-at="2022-11-11T21:26:38 IST" finished-at="2022-11-11T21:26:54 IST">
+      <class name="com.actitime.testcases.TestRejectTimeTrack">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.actitime.testcases.TestRejectTimeTrack@eb21112]" name="setup" is-config="true" duration-ms="8236" started-at="2022-11-11T21:26:38 IST" finished-at="2022-11-11T21:26:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginToApp()[pri:1, instance:com.actitime.testcases.TestRejectTimeTrack@eb21112]" name="loginToApp" duration-ms="186" started-at="2022-11-11T21:26:47 IST" finished-at="2022-11-11T21:26:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="goApproveTimeTrack()[pri:2, instance:com.actitime.testcases.TestRejectTimeTrack@eb21112]" name="goApproveTimeTrack" duration-ms="5446" started-at="2022-11-11T21:26:47 IST" finished-at="2022-11-11T21:26:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goApproveTimeTrack -->
+        <test-method status="PASS" signature="clickCheckBox()[pri:3, instance:com.actitime.testcases.TestRejectTimeTrack@eb21112]" name="clickCheckBox" duration-ms="587" started-at="2022-11-11T21:26:52 IST" finished-at="2022-11-11T21:26:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCheckBox -->
+        <test-method status="PASS" signature="clickRejectBtn()[pri:4, instance:com.actitime.testcases.TestRejectTimeTrack@eb21112]" name="clickRejectBtn" duration-ms="87" started-at="2022-11-11T21:26:53 IST" finished-at="2022-11-11T21:26:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRejectBtn -->
+        <test-method status="PASS" signature="enterRejectReason()[pri:5, instance:com.actitime.testcases.TestRejectTimeTrack@eb21112]" name="enterRejectReason" duration-ms="70" started-at="2022-11-11T21:26:53 IST" finished-at="2022-11-11T21:26:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRejectReason -->
+        <test-method status="PASS" signature="clickReasonRejectBtn()[pri:6, instance:com.actitime.testcases.TestRejectTimeTrack@eb21112]" name="clickReasonRejectBtn" duration-ms="59" started-at="2022-11-11T21:26:53 IST" finished-at="2022-11-11T21:26:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickReasonRejectBtn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.actitime.testcases.TestRejectTimeTrack@eb21112]" name="tearDown" is-config="true" duration-ms="669" started-at="2022-11-11T21:26:53 IST" finished-at="2022-11-11T21:26:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.testcases.TestRejectTimeTrack -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
